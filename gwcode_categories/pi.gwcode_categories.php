@@ -30,6 +30,44 @@ class Gwcode_categories {
 	private $remove_from_end = 0;
 	private $max_depth_in_output = 1; // this will store the highest depth number in the final output
 	private $min_depth_in_output = 1; // this will store the lowest depth number in the final output
+	
+	
+	private $show = '';
+	private $class = '';
+	private $depth = '';
+	private $limit = '';
+	private $last_only = '';
+	private $site_id = '';
+	private $EE = '';
+	private $style = '';
+	private $channel = '';
+	private $group_id = '';
+	private $entry_id = '';
+	private $list_type = '';
+	private $max_depth  = '';
+	private $entry_count  = '';
+	private $backspace   = '';
+	private $id   = '';
+	private $min_depth   = '';
+	private $show_empty   = '';
+	private $cat_id  = '';
+	private $cat_url_title  = '';
+	private $show_trail  = '';
+	private $incl_self   = '';
+	private $custom_fields    = '';
+	private $show_full_trail    = '';
+	private $excl_cat_id    = '';
+	private $excl_cat_id_children     = '';
+	private $count_future_entries     = '';
+	private $count_expired_entries     = '';
+	private $output_depth     = '';
+	private $orderby      = '';
+	private $sort      = '';
+	private $offset      = '';
+	private $excl_group_id      = '';
+	private $var_prefix       = '';
+	private $status       = '';
+	private $switch       = '';
 
 	public function __construct() {
 		$this->EE = get_instance();
